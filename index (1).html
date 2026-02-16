@@ -1,0 +1,611 @@
+<!DOCTYPE html>
+<html lang="en" dir="ltr">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Intel: Sustainability Through the Ages</title>
+  
+  <!-- Bootstrap CSS -->
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet">
+  <!-- Bootstrap Icons -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.3/font/bootstrap-icons.min.css">
+  
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+  <!-- Skip to main content link for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+
+  <!-- Language Selector -->
+  <div class="language-selector">
+    <label for="language-select" class="visually-hidden">Select Language</label>
+    <select id="language-select" class="form-select form-select-sm" aria-label="Language selection">
+      <option value="en">English</option>
+      <option value="ar">العربية (Arabic)</option>
+      <option value="he">עברית (Hebrew)</option>
+    </select>
+  </div>
+
+  <!-- Animated Circuit Pattern Background -->
+  <div class="circuit-background" aria-hidden="true">
+    <svg class="circuit-svg" viewBox="0 0 1200 800" preserveAspectRatio="none">
+      <defs>
+        <pattern id="circuit-pattern" x="0" y="0" width="200" height="200" patternUnits="userSpaceOnUse">
+          <path d="M 10 100 L 50 100 L 50 50 L 100 50 L 100 150 L 150 150 L 150 100" stroke="currentColor" stroke-width="0.5" fill="none" opacity="0.08"/>
+          <circle cx="50" cy="100" r="2" fill="currentColor" opacity="0.1"/>
+          <circle cx="100" cy="50" r="2" fill="currentColor" opacity="0.1"/>
+          <circle cx="150" cy="150" r="2" fill="currentColor" opacity="0.1"/>
+        </pattern>
+      </defs>
+      <rect width="1200" height="800" fill="url(#circuit-pattern)"/>
+    </svg>
+  </div>
+
+  <!-- Intel Header - Official Logo Centered -->
+  <header class="logo-section">
+    <div class="logo-container">
+      <img src="img/intel-header-logo.svg" alt="Intel Corporation Logo" class="intel-official-logo" />
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="hero-section" role="banner">
+    <h1>Sustainability Through the Ages</h1>
+    <p>Explore Intel's journey through time, discovering how our commitment
+      to innovation has shaped a more sustainable future for technology 
+      and our planet.</p>
+  </section>
+
+  <!-- Main Content -->
+  <main id="main-content">
+    <!-- Three-Column Features Section with Bootstrap Grid -->
+    <section class="features-section py-5 bg-white">
+      <div class="container">
+        <h2 class="text-center mb-5 text-intel-dark">Our Sustainability Pillars</h2>
+        <div class="row g-4">
+          <!-- Column 1: Climate Action -->
+          <div class="col-md-4">
+            <div class="feature-card text-center h-100 p-4">
+              <div class="feature-icon mb-3">
+                <i class="bi bi-globe2 text-intel-blue" aria-hidden="true"></i>
+              </div>
+              <h3 class="h5 mb-3">
+                <i class="bi bi-cloud-sun me-2" aria-hidden="true"></i>
+                Climate Action
+              </h3>
+              <p class="text-muted mb-4">
+                Committed to achieving net-zero greenhouse gas emissions by 2040 through renewable energy adoption and innovative manufacturing processes.
+              </p>
+              <a href="#" class="btn btn-outline-primary learn-more-btn" aria-label="Learn more about Climate Action">
+                Learn More
+              </a>
+            </div>
+          </div>
+
+          <!-- Column 2: Water Stewardship -->
+          <div class="col-md-4">
+            <div class="feature-card text-center h-100 p-4">
+              <div class="feature-icon mb-3">
+                <i class="bi bi-droplet-fill text-intel-blue" aria-hidden="true"></i>
+              </div>
+              <h3 class="h5 mb-3">
+                <i class="bi bi-water me-2" aria-hidden="true"></i>
+                Water Stewardship
+              </h3>
+              <p class="text-muted mb-4">
+                Restoring more water than we consume and ensuring sustainable water management across all our global operations and communities.
+              </p>
+              <a href="#" class="btn btn-outline-primary learn-more-btn" aria-label="Learn more about Water Stewardship">
+                Learn More
+              </a>
+            </div>
+          </div>
+
+          <!-- Column 3: Circular Economy -->
+          <div class="col-md-4">
+            <div class="feature-card text-center h-100 p-4">
+              <div class="feature-icon mb-3">
+                <i class="bi bi-recycle text-intel-blue" aria-hidden="true"></i>
+              </div>
+              <h3 class="h5 mb-3">
+                <i class="bi bi-arrow-repeat me-2" aria-hidden="true"></i>
+                Circular Economy
+              </h3>
+              <p class="text-muted mb-4">
+                Achieving zero waste to landfill and designing products for maximum reuse, recycling, and responsible end-of-life management.
+              </p>
+              <a href="#" class="btn btn-outline-primary learn-more-btn" aria-label="Learn more about Circular Economy">
+                Learn More
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Timeline Section -->
+    <section class="timeline-section" aria-labelledby="timeline-heading">
+      <h2 id="timeline-heading" class="timeline-title">Intel's Sustainability Journey</h2>
+      
+      <!-- Scrollable Timeline -->
+      <div class="timeline-scroll" role="list" aria-label="Intel sustainability timeline">
+        <!-- 1968 -->
+        <article class="timeline-card" role="listitem" tabindex="0" aria-label="1968: Intel Founded">
+          <div class="card-front">
+            <svg viewBox="0 0 200 200" class="card-icon" aria-hidden="true" role="img">
+              <title>Factory icon representing Intel's founding</title>
+              <defs>
+                <linearGradient id="g1" x1="0%" y1="0%" x2="100%" y2="100%">
+                  <stop offset="0%" style="stop-color:#0071C5;stop-opacity:1" />
+                  <stop offset="100%" style="stop-color:#003D7A;stop-opacity:1" />
+                </linearGradient>
+              </defs>
+              <rect width="200" height="200" fill="url(#g1)"/>
+              <rect x="50" y="80" width="30" height="60" fill="#FFFFFF"/>
+              <rect x="110" y="80" width="30" height="60" fill="#FFFFFF"/>
+              <rect x="60" y="95" width="8" height="8" fill="#0071C5"/>
+              <rect x="76" y="95" width="8" height="8" fill="#0071C5"/>
+              <rect x="60" y="115" width="8" height="8" fill="#0071C5"/>
+              <rect x="76" y="115" width="8" height="8" fill="#0071C5"/>
+              <rect x="120" y="95" width="8" height="8" fill="#0071C5"/>
+              <rect x="136" y="95" width="8" height="8" fill="#0071C5"/>
+              <rect x="120" y="115" width="8" height="8" fill="#0071C5"/>
+              <rect x="136" y="115" width="8" height="8" fill="#0071C5"/>
+              <rect x="77" y="70" width="2" height="15" fill="#FFFFFF"/>
+              <polygon points="79,70 79,80 90,75" fill="#FF6B6B"/>
+            </svg>
+          </div>
+          <div class="card-back">
+            <div class="card-content">
+              <h3>1968</h3>
+              <h4>Intel Founded</h4>
+              <p>Robert Noyce and Gordon Moore rename the newly formed company 
+              NM Electronics to Intel Corporation, laying the foundation for 
+              decades of technological innovation.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 1971 -->
+        <article class="timeline-card" role="listitem" tabindex="0" aria-label="1971: First Microprocessor">
+          <div class="card-front">
+            <svg viewBox="0 0 200 200" class="card-icon" aria-hidden="true" role="img">
+              <title>Microchip icon representing the first microprocessor</title>
+              <defs><linearGradient id="g2" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#0071C5;stop-opacity:1" /><stop offset="100%" style="stop-color:#003D7A;stop-opacity:1" /></linearGradient></defs>
+              <rect width="200" height="200" fill="url(#g2)"/>
+              <rect x="60" y="60" width="80" height="80" fill="#FFFFFF" stroke="#00A0DF" stroke-width="2"/>
+              <circle cx="80" cy="80" r="3" fill="#0071C5"/><circle cx="100" cy="80" r="3" fill="#0071C5"/><circle cx="120" cy="80" r="3" fill="#0071C5"/>
+              <circle cx="80" cy="100" r="3" fill="#0071C5"/><circle cx="120" cy="100" r="3" fill="#0071C5"/>
+              <circle cx="80" cy="120" r="3" fill="#0071C5"/><circle cx="100" cy="120" r="3" fill="#0071C5"/><circle cx="120" cy="120" r="3" fill="#0071C5"/>
+              <line x1="50" y1="100" x2="60" y2="100" stroke="#00A0DF" stroke-width="2"/>
+              <line x1="140" y1="100" x2="150" y2="100" stroke="#00A0DF" stroke-width="2"/>
+            </svg>
+          </div>
+          <div class="card-back">
+            <div class="card-content">
+              <h3>1971</h3>
+              <h4>First Microprocessor</h4>
+              <p>Intel debuts the 4004, the world's first commercial microprocessor, 
+              igniting the microprocessor revolution and propelling the future 
+              of computing devices.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 1978 -->
+        <article class="timeline-card" role="listitem" tabindex="0" aria-label="1978: 8086 Processor">
+          <div class="card-front">
+            <svg viewBox="0 0 200 200" class="card-icon" aria-hidden="true" role="img">
+              <title>Circuit icon representing the 8086 processor</title>
+              <defs><linearGradient id="g3" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#0071C5;stop-opacity:1" /><stop offset="100%" style="stop-color:#003D7A;stop-opacity:1" /></linearGradient></defs>
+              <rect width="200" height="200" fill="url(#g3)"/>
+              <rect x="55" y="55" width="90" height="90" fill="none" stroke="#FFFFFF" stroke-width="3"/>
+              <rect x="60" y="60" width="80" height="80" fill="#00A0DF" opacity="0.3"/>
+              <path d="M 65 65 L 65 130 L 130 130 L 130 65" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+              <path d="M 75 65 L 75 130" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.7"/>
+              <path d="M 100 65 L 100 130" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.7"/>
+              <path d="M 120 65 L 120 130" fill="none" stroke="#FFFFFF" stroke-width="1.5" opacity="0.7"/>
+              <circle cx="65" cy="65" r="2" fill="#FFFFFF"/><circle cx="130" cy="65" r="2" fill="#FFFFFF"/>
+              <circle cx="65" cy="130" r="2" fill="#FFFFFF"/><circle cx="130" cy="130" r="2" fill="#FFFFFF"/>
+            </svg>
+          </div>
+          <div class="card-back">
+            <div class="card-content">
+              <h3>1978</h3>
+              <h4>8086 Processor</h4>
+              <p>Launch of the 8086 processor, establishing the x86 architecture 
+              that drives countless PCs and servers in the modern era.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 1985 -->
+        <article class="timeline-card" role="listitem" tabindex="0" aria-label="1985: 386 Processor">
+          <div class="card-front">
+            <svg viewBox="0 0 200 200" class="card-icon" aria-hidden="true" role="img">
+              <title>386 processor icon</title>
+              <defs><linearGradient id="g4" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#0071C5;stop-opacity:1" /><stop offset="100%" style="stop-color:#003D7A;stop-opacity:1" /></linearGradient></defs>
+              <rect width="200" height="200" fill="url(#g4)"/>
+              <rect x="50" y="50" width="100" height="100" fill="none" stroke="#FFFFFF" stroke-width="2" rx="5"/>
+              <rect x="60" y="60" width="35" height="35" fill="#00A0DF" stroke="#FFFFFF" stroke-width="1"/>
+              <rect x="105" y="60" width="35" height="35" fill="#00A0DF" stroke="#FFFFFF" stroke-width="1"/>
+              <rect x="60" y="105" width="35" height="35" fill="#00A0DF" stroke="#FFFFFF" stroke-width="1"/>
+              <rect x="105" y="105" width="35" height="35" fill="#00A0DF" stroke="#FFFFFF" stroke-width="1"/>
+              <text x="77" y="92" font-size="16" fill="#FFFFFF" font-weight="bold" text-anchor="middle">386</text>
+            </svg>
+          </div>
+          <div class="card-back">
+            <div class="card-content">
+              <h3>1985</h3>
+              <h4>386 Processor</h4>
+              <p>Intel introduces the 386 processor with 32-bit architecture, 
+              ushering in a new era of performance and multitasking for 
+              personal computers.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2006 -->
+        <article class="timeline-card" role="listitem" tabindex="0" aria-label="2006: Peak Greenhouse Gas Emissions">
+          <div class="card-front">
+            <svg viewBox="0 0 200 200" class="card-icon" aria-hidden="true" role="img">
+              <title>Factory emissions icon</title>
+              <defs><linearGradient id="g5" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#0071C5;stop-opacity:1" /><stop offset="100%" style="stop-color:#003D7A;stop-opacity:1" /></linearGradient></defs>
+              <rect width="200" height="200" fill="url(#g5)"/>
+              <rect x="70" y="100" width="60" height="50" fill="#FFFFFF"/>
+              <rect x="75" y="85" width="12" height="20" fill="#FFFFFF"/>
+              <rect x="100" y="75" width="12" height="30" fill="#FFFFFF"/>
+              <rect x="125" y="85" width="12" height="20" fill="#FFFFFF"/>
+              <rect x="80" y="110" width="8" height="8" fill="#FF6B6B"/>
+              <rect x="95" y="110" width="8" height="8" fill="#FF6B6B"/>
+              <rect x="110" y="110" width="8" height="8" fill="#FF6B6B"/>
+              <circle cx="81" cy="80" r="4" fill="#999999" opacity="0.6"/>
+              <circle cx="78" cy="70" r="5" fill="#999999" opacity="0.4"/>
+              <circle cx="106" cy="68" r="4" fill="#999999" opacity="0.6"/>
+              <circle cx="103" cy="57" r="5" fill="#999999" opacity="0.4"/>
+              <circle cx="131" cy="80" r="4" fill="#999999" opacity="0.6"/>
+              <circle cx="134" cy="70" r="5" fill="#999999" opacity="0.4"/>
+            </svg>
+          </div>
+          <div class="card-back">
+            <div class="card-content">
+              <h3>2006</h3>
+              <h4>Peak GHG</h4>
+              <p>This year marks Intel's highest annual greenhouse gas emissions 
+              for operations. Over subsequent years, Intel invests heavily in 
+              chemical abatement, renewable energy, and energy-efficient 
+              manufacturing to reverse this trend.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2020 -->
+        <article class="timeline-card" role="listitem" tabindex="0" aria-label="2020: RISE Strategy Launch">
+          <div class="card-front">
+            <svg viewBox="0 0 200 200" class="card-icon" aria-hidden="true" role="img">
+              <title>Growth arrow icon representing RISE strategy</title>
+              <defs><linearGradient id="g6" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#0071C5;stop-opacity:1" /><stop offset="100%" style="stop-color:#003D7A;stop-opacity:1" /></linearGradient></defs>
+              <rect width="200" height="200" fill="url(#g6)"/>
+              <polygon points="100,50 130,110 115,110 115,150 85,150 85,110 70,110" fill="#4CAF50"/>
+              <polygon points="140,80 145,95 160,95 148,105 153,120 140,110 127,120 132,105 120,95 135,95" fill="#FFFFFF" opacity="0.8"/>
+              <polygon points="60,100 63,110 75,110 66,116 69,127 60,121 51,127 54,116 45,110 57,110" fill="#FFFFFF" opacity="0.6"/>
+            </svg>
+          </div>
+          <div class="card-back">
+            <div class="card-content">
+              <h3>2020</h3>
+              <h4>RISE Strategy</h4>
+              <p>Intel launches its RISE (Responsible, Inclusive, Sustainable, 
+              Enabling) strategy and 2030 goals, aiming to drive industry-wide 
+              progress on climate action, water stewardship, and waste reduction.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2022 -->
+        <article class="timeline-card" role="listitem" tabindex="0" aria-label="2022: Net-Zero 2040 Commitment">
+          <div class="card-front">
+            <svg viewBox="0 0 200 200" class="card-icon" aria-hidden="true" role="img">
+              <title>Globe with leaves icon representing net-zero commitment</title>
+              <defs><linearGradient id="g7" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#0071C5;stop-opacity:1" /><stop offset="100%" style="stop-color:#003D7A;stop-opacity:1" /></linearGradient></defs>
+              <rect width="200" height="200" fill="url(#g7)"/>
+              <ellipse cx="100" cy="100" rx="35" ry="50" fill="#4CAF50" transform="rotate(-20 100 100)"/>
+              <path d="M 100 50 Q 120 75 120 100 Q 120 125 100 150" fill="none" stroke="#FFFFFF" stroke-width="2"/>
+              <circle cx="100" cy="100" r="50" fill="none" stroke="#FFFFFF" stroke-width="2" opacity="0.5"/>
+              <circle cx="100" cy="100" r="50" fill="none" stroke="#4CAF50" stroke-width="3" stroke-dasharray="157.08" stroke-dashoffset="0" opacity="0.8"/>
+              <circle cx="100" cy="100" r="40" fill="none" stroke="#FFFFFF" stroke-width="1" opacity="0.4"/>
+            </svg>
+          </div>
+          <div class="card-back">
+            <div class="card-content">
+              <h3>2022</h3>
+              <h4>Net-Zero 2040</h4>
+              <p>Intel announces its commitment to achieve net-zero greenhouse 
+              gas emissions (Scope 1 and 2) across its global operations 
+              by 2040, building on years of environmental initiatives.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2023 -->
+        <article class="timeline-card" role="listitem" tabindex="0" aria-label="2023: 99% Renewable Energy Achievement">
+          <div class="card-front">
+            <svg viewBox="0 0 200 200" class="card-icon" aria-hidden="true" role="img">
+              <title>Sun and wind turbine icon representing renewable energy</title>
+              <defs><linearGradient id="g8" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#0071C5;stop-opacity:1" /><stop offset="100%" style="stop-color:#003D7A;stop-opacity:1" /></linearGradient></defs>
+              <rect width="200" height="200" fill="url(#g8)"/>
+              <rect x="95" y="120" width="10" height="50" fill="#FFFFFF"/>
+              <circle cx="100" cy="120" r="15" fill="#FFD700"/>
+              <polygon points="100,105 95,125 105,125" fill="#FFFFFF" transform="rotate(0 100 120)"/>
+              <polygon points="100,105 95,125 105,125" fill="#FFFFFF" transform="rotate(120 100 120)"/>
+              <polygon points="100,105 95,125 105,125" fill="#FFFFFF" transform="rotate(240 100 120)"/>
+              <circle cx="60" cy="60" r="12" fill="#FFD700"/>
+              <line x1="60" y1="40" x2="60" y2="25" stroke="#FFD700" stroke-width="3"/>
+              <line x1="80" y1="60" x2="95" y2="60" stroke="#FFD700" stroke-width="3"/>
+              <line x1="75" y1="45" x2="85" y2="35" stroke="#FFD700" stroke-width="3"/>
+            </svg>
+          </div>
+          <div class="card-back">
+            <div class="card-content">
+              <h3>2023</h3>
+              <h4>Renewable Energy</h4>
+              <p>The company achieves 99% renewable electricity usage worldwide, 
+              helping to drastically lower carbon emissions and driving progress 
+              toward Intel's long-term sustainability goals.</p>
+            </div>
+          </div>
+        </article>
+
+        <!-- 2024 -->
+        <article class="timeline-card" role="listitem" tabindex="0" aria-label="2024: Sustainability Summit">
+          <div class="card-front">
+            <svg viewBox="0 0 200 200" class="card-icon" aria-hidden="true" role="img">
+              <title>People collaboration icon representing sustainability summit</title>
+              <defs><linearGradient id="g9" x1="0%" y1="0%" x2="100%" y2="100%"><stop offset="0%" style="stop-color:#0071C5;stop-opacity:1" /><stop offset="100%" style="stop-color:#003D7A;stop-opacity:1" /></linearGradient></defs>
+              <rect width="200" height="200" fill="url(#g9)"/>
+              <circle cx="70" cy="65" r="8" fill="#FFFFFF"/>
+              <rect x="65" y="75" width="10" height="20" fill="#FFFFFF"/>
+              <rect x="62" y="80" width="5" height="15" fill="#FFFFFF"/>
+              <rect x="77" y="80" width="5" height="15" fill="#FFFFFF"/>
+              <circle cx="100" cy="60" r="8" fill="#FFFFFF"/>
+              <rect x="95" y="70" width="10" height="22" fill="#FFFFFF"/>
+              <rect x="92" y="75" width="5" height="17" fill="#FFFFFF"/>
+              <rect x="107" y="75" width="5" height="17" fill="#FFFFFF"/>
+              <circle cx="130" cy="65" r="8" fill="#FFFFFF"/>
+              <rect x="125" y="75" width="10" height="20" fill="#FFFFFF"/>
+              <rect x="122" y="80" width="5" height="15" fill="#FFFFFF"/>
+              <rect x="137" y="80" width="5" height="15" fill="#FFFFFF"/>
+              <rect x="50" y="120" width="100" height="8" fill="#00A0DF"/>
+              <rect x="60" y="128" width="8" height="15" fill="#FFFFFF"/>
+              <rect x="96" y="128" width="8" height="15" fill="#FFFFFF"/>
+              <rect x="130" y="128" width="8" height="15" fill="#FFFFFF"/>
+            </svg>
+          </div>
+          <div class="card-back">
+            <div class="card-content">
+              <h3>2024</h3>
+              <h4>Sustainability Summit</h4>
+              <p>Intel hosts its first Sustainability Summit, uniting suppliers, 
+              government officials, and industry leaders to collaborate on 
+              next-generation sustainable semiconductor manufacturing.</p>
+            </div>
+          </div>
+        </article>
+      </div>
+    </section>
+
+    <!-- Newsletter Subscription Section -->
+    <section class="subscription-section py-5 bg-light" aria-labelledby="subscription-heading">
+      <div class="container">
+        <div class="row justify-content-center">
+          <div class="col-lg-8">
+            <div class="subscription-card p-5 bg-white rounded shadow-sm">
+              <h2 id="subscription-heading" class="text-center mb-3">Stay Updated on Our Sustainability Journey</h2>
+              <p class="text-center text-muted mb-4">
+                Subscribe to our sustainability newsletter and receive the latest updates on Intel's environmental initiatives, innovations, and impact.
+              </p>
+              
+              <form id="newsletter-form" class="needs-validation" novalidate aria-label="Newsletter subscription form">
+                <div class="row g-3">
+                  <div class="col-md-6">
+                    <label for="subscriber-name" class="form-label">Full Name <span class="text-danger" aria-label="required">*</span></label>
+                    <input 
+                      type="text" 
+                      class="form-control" 
+                      id="subscriber-name" 
+                      name="name"
+                      required 
+                      aria-required="true"
+                      placeholder="Enter your name"
+                    >
+                    <div class="invalid-feedback">
+                      Please provide your name.
+                    </div>
+                  </div>
+                  
+                  <div class="col-md-6">
+                    <label for="subscriber-email" class="form-label">Email Address <span class="text-danger" aria-label="required">*</span></label>
+                    <input 
+                      type="email" 
+                      class="form-control" 
+                      id="subscriber-email" 
+                      name="email"
+                      required 
+                      aria-required="true"
+                      placeholder="your.email@example.com"
+                      pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]{2,}$"
+                    >
+                    <div class="invalid-feedback">
+                      Please provide a valid email address.
+                    </div>
+                  </div>
+                </div>
+
+                <div class="row g-3 mt-2">
+                  <div class="col-12">
+                    <label for="interest-area" class="form-label">Area of Interest</label>
+                    <select class="form-select" id="interest-area" name="interest" aria-label="Select area of interest">
+                      <option value="" selected>Select an area...</option>
+                      <option value="climate">Climate Action</option>
+                      <option value="water">Water Stewardship</option>
+                      <option value="circular">Circular Economy</option>
+                      <option value="all">All Sustainability Topics</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-check mt-3">
+                  <input 
+                    class="form-check-input" 
+                    type="checkbox" 
+                    id="consent-check" 
+                    required
+                    aria-required="true"
+                  >
+                  <label class="form-check-label" for="consent-check">
+                    I agree to receive sustainability updates from Intel <span class="text-danger" aria-label="required">*</span>
+                  </label>
+                  <div class="invalid-feedback">
+                    You must agree before subscribing.
+                  </div>
+                </div>
+
+                <div class="d-grid gap-2 mt-4">
+                  <button type="submit" class="btn btn-primary btn-lg" aria-label="Subscribe to newsletter">
+                    <i class="bi bi-envelope-check me-2" aria-hidden="true"></i>
+                    Subscribe Now
+                  </button>
+                </div>
+              </form>
+
+              <div id="success-message" class="alert alert-success mt-4 d-none" role="alert">
+                <i class="bi bi-check-circle-fill me-2" aria-hidden="true"></i>
+                Thank you for subscribing! Check your email for confirmation.
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="site-footer py-4 bg-dark text-white">
+    <div class="container">
+      <div class="row">
+        <div class="col-md-4 mb-3 mb-md-0">
+          <h5>Intel Corporation</h5>
+          <p class="small text-white-50">
+            Innovating for a sustainable future through technology and environmental responsibility.
+          </p>
+        </div>
+        <div class="col-md-4 mb-3 mb-md-0">
+          <h5>Quick Links</h5>
+          <ul class="list-unstyled small">
+            <li><a href="#" class="text-white-50 text-decoration-none">Corporate Responsibility</a></li>
+            <li><a href="#" class="text-white-50 text-decoration-none">Environmental Reports</a></li>
+            <li><a href="#" class="text-white-50 text-decoration-none">Innovation</a></li>
+            <li><a href="#" class="text-white-50 text-decoration-none">Careers</a></li>
+          </ul>
+        </div>
+        <div class="col-md-4">
+          <h5>Connect With Us</h5>
+          <div class="social-links">
+            <a href="#" class="text-white-50 me-3" aria-label="Intel on Twitter"><i class="bi bi-twitter" aria-hidden="true"></i></a>
+            <a href="#" class="text-white-50 me-3" aria-label="Intel on LinkedIn"><i class="bi bi-linkedin" aria-hidden="true"></i></a>
+            <a href="#" class="text-white-50 me-3" aria-label="Intel on Facebook"><i class="bi bi-facebook" aria-hidden="true"></i></a>
+            <a href="#" class="text-white-50" aria-label="Intel on Instagram"><i class="bi bi-instagram" aria-hidden="true"></i></a>
+          </div>
+          <button type="button" class="btn btn-sm btn-outline-light mt-3" data-bs-toggle="modal" data-bs-target="#infoModal">
+            Learn More About RISE
+          </button>
+        </div>
+      </div>
+      <hr class="border-secondary my-4">
+      <div class="row">
+        <div class="col-12 text-center small text-white-50">
+          <p class="mb-0">&copy; 2024 Intel Corporation. All rights reserved. | 
+            <a href="#" class="text-white-50 text-decoration-none">Privacy</a> | 
+            <a href="#" class="text-white-50 text-decoration-none">Terms</a> | 
+            <a href="#" class="text-white-50 text-decoration-none">Cookies</a>
+          </p>
+          <p class="mb-0 mt-2">Hover over timeline cards to reveal details • Scroll to explore the timeline</p>
+        </div>
+      </div>
+    </div>
+  </footer>
+
+  <!-- Modal Component (BONUS: Bootstrap Interactive Component) -->
+  <div class="modal fade" id="infoModal" tabindex="-1" aria-labelledby="infoModalLabel" aria-hidden="true">
+    <div class="modal-dialog modal-dialog-centered modal-lg">
+      <div class="modal-content">
+        <div class="modal-header bg-intel-blue text-white">
+          <h5 class="modal-title" id="infoModalLabel">
+            <i class="bi bi-info-circle me-2" aria-hidden="true"></i>
+            Intel's RISE Strategy
+          </h5>
+          <button type="button" class="btn-close btn-close-white" data-bs-dismiss="modal" aria-label="Close"></button>
+        </div>
+        <div class="modal-body">
+          <h6 class="fw-bold text-intel-dark">Responsible, Inclusive, Sustainable, Enabling</h6>
+          <p>Intel's RISE strategy represents our comprehensive approach to corporate responsibility, focusing on four key pillars:</p>
+          
+          <div class="row g-3 mt-2">
+            <div class="col-md-6">
+              <div class="d-flex align-items-start">
+                <i class="bi bi-shield-check text-intel-blue fs-4 me-3 flex-shrink-0" aria-hidden="true"></i>
+                <div>
+                  <h6 class="fw-bold mb-1">Responsible</h6>
+                  <p class="small mb-0">Operating with integrity and transparency in all our business practices.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex align-items-start">
+                <i class="bi bi-people-fill text-intel-blue fs-4 me-3 flex-shrink-0" aria-hidden="true"></i>
+                <div>
+                  <h6 class="fw-bold mb-1">Inclusive</h6>
+                  <p class="small mb-0">Building diverse teams and fostering equality in technology access.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex align-items-start">
+                <i class="bi bi-tree-fill text-intel-blue fs-4 me-3 flex-shrink-0" aria-hidden="true"></i>
+                <div>
+                  <h6 class="fw-bold mb-1">Sustainable</h6>
+                  <p class="small mb-0">Reducing environmental impact through innovation and efficiency.</p>
+                </div>
+              </div>
+            </div>
+            <div class="col-md-6">
+              <div class="d-flex align-items-start">
+                <i class="bi bi-lightbulb-fill text-intel-blue fs-4 me-3 flex-shrink-0" aria-hidden="true"></i>
+                <div>
+                  <h6 class="fw-bold mb-1">Enabling</h6>
+                  <p class="small mb-0">Using technology to create positive change and empower communities.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <div class="alert alert-info mt-4 mb-0" role="alert">
+            <i class="bi bi-calendar-check me-2" aria-hidden="true"></i>
+            <strong>2030 Goals:</strong> Net positive water use, 100% renewable energy, zero waste to landfill, and more.
+          </div>
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-bs-dismiss="modal">Close</button>
+          <a href="#" class="btn btn-primary">Read Full Report</a>
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <!-- Bootstrap Bundle with Popper -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js"></script>
+  
+  <!-- Custom JavaScript for RTL detection and form validation -->
+  <script src="script.js"></script>
+</body>
+</html>
